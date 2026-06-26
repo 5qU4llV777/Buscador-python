@@ -18,6 +18,9 @@ Dentro do ambiente, instale o que precisa:
 ``` python
 pip install flask requests beautifulsoup4 python-dotenv
 ```
+``` python
+pip install selenium beautifulsoup4 flask
+```
 Salvar dependências  
 Para registrar tudo em requirements.txt:
 ``` python
@@ -27,3 +30,12 @@ Assim, qualquer pessoa pode recriar o mesmo ambiente com:
 ``` python
 pip install -r requirements.txt
 ```
+
+🔎 Como usar
+Salve o código em app.py.
+
+Execute com python app.py.
+
+Abra no navegador: http://127.0.0.1:5000.
+
+Digite cargo e localização → veja as vagas em tempo real.
